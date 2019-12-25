@@ -1,0 +1,85 @@
+<!doctype HTML>
+<html>
+    <head>
+        <center>
+        <h1><b> STUDENT PERFORMANCE PREDICTOR</b></h1>
+    </center>
+        <link rel="stylesheet" href="style_predictor.css">
+    </head>
+    <body>
+<form>
+        <div id="detail-box">
+            <h1>Fill the below details</h1>
+            <label>Name:</label><input type="text" name="name" placeholder="enter your name">
+            <label>institution Name:</label><input type="text" name="institutionname" placeholder="enter institution your name">
+            <label>Overall % in last level:</label><input type="text" name="level1" placeholder="overall percentage in last grade/semester">
+            <label>Overall % in last before level:</label><input type="text" name="level2" placeholder="overall percentage in last before grade/semester">
+            <label id="gender">Gender<br>
+            <input type="radio" name="male" value="male">Male<br>
+            <input type="radio" name="female" value="female">Female<br><br>
+            <label>Family relationship:</label><input type="text" name="famrel" placeholder="rate your family relationship out of 5">
+            <label>Health Status:</label><input type="text" name="health" placeholder="rate your health status out of 5">
+            <label>% of absences:</label><input type="text" name="absent" placeholder="% of absent days in previous grade">
+           </label>
+          
+           <label id="parent"><h4>Parental Information </h4></label>
+
+         <div class="mom">
+           
+            <label id="medu">Mother's Educational Qualification<br>
+            <input type="radio" name="none" value="none">None<br>
+            <input type="radio" name="primary" value="primary">Primary<br>
+            <input type="radio" name="high" value="high school">High school<br>
+            <input type="radio" name="degree" value="degree">Degree<br>
+        </label>
+        <label >Mother's Job<br>
+            <input type="radio" name="at home" value="at home">At Home<br>
+            <input type="radio" name="working" value="working">Working<br>
+        </label><br>
+    </div>
+    <div class="dad">
+        <label >Father's Education<br>
+            <input type="radio" name="none" value="none">None<br>
+            <input type="radio" name="primary" value="primary">Primary<br>
+            <input type="radio" name="high" value="high school">High school<br>
+            <input type="radio" name="degree" value="degree">Degree<br>
+        </label>
+        <label>Father's Job<br>
+            <input type="radio" name="at home" value="at home">At Home<br>
+            <input type="radio" name="working" value="working">Working<br>
+        </label><br>
+    
+    </div>
+        <h4>Other Information</h4>
+       <div id="stud">
+           <div class="travel">
+        <label>Travel time to the institution </label><br>
+            <input type="radio" name="15" value="15">less than 15 mins<br>
+            <input type="radio" name="30" value="30">15-30 mins<br>
+            <input type="radio" name="1" value="1">30 mins-1 hour<br>
+            <input type="radio" name="more" value="more">more than 1 hour<br> 
+    </div>
+    <div class="study">
+        <label id="studytime">Study hours in home </label><br>
+            <input type="radio" name="2" value="2">less than 2 hours/week<br>
+            <input type="radio" name="5" value="5">less than 5 hours/week<br>
+            <input type="radio" name="10" value="10">10 hours or more<br>
+        
+    </div>
+        <div class="inter">
+        <label >Do you have internet access? </label><br>
+            <input type="radio" name="yes" value="yes">Yes<br>
+            <input type="radio" name="no" value="no">No
+        
+    </div>
+       
+    </div>
+    
+
+    </div>
+    <center>
+            <input type="submit" value="submit">
+        </center>
+</form>
+    </body>
+</html>

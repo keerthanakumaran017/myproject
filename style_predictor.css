@@ -1,0 +1,99 @@
+#detail-box
+{
+    position:relative;
+    margin:5% auto;
+    height:1100px;
+    background:#fff;
+    box-shadow: 0 2px 4px rgb(0, 0,0, 0.6);
+    width:900px;
+    top:0;
+    left:0;
+    box-sizing: border-box;
+    padding:40px;
+    background-image: url(backgrounds.jpg);
+}
+h1
+{
+    margin:0 0 20px 0;
+    font-weight: 300;
+    font-size: 28px;
+    text-align: center;
+}
+h4
+{
+    text-align: center;
+}
+input[type="text"]
+{
+    display:block;
+    box-sizing: border-box;
+    margin-bottom:20px;
+    padding:4px;
+    width:300px;
+    height:32px;
+    border:none;
+    outline:none;
+    border-bottom:1px solid #aaa;
+    font-family:sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    transition:0.2s ease;   
+}
+input[type="submit"]
+{
+    width:120px;
+    height:32px;
+    margin-top:30px ;
+    margin-bottom: 28px;
+    background: #f44336;
+    border:none;
+    border-radius:2px;
+    color:#fff;
+    font-family:sans-serif;
+    font-weight:500;
+    text-transform:uppercase;
+    transition: 0.2s ease;
+    cursor:pointer;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus
+    {
+        
+        transition: 0.2s ease;
+    }
+
+.mom
+{
+  display:inline-block;   
+    padding:20px;
+}
+.dad
+{
+
+    float:right;
+    padding-right: 100px;
+    padding-top: 20px;
+}
+.travel
+{
+    float:left;
+    padding-bottom: 50px; 
+    padding-right: 100px;
+    
+}
+.study
+{
+  
+    float:left;
+    padding-bottom: 50px; 
+    padding-right: 100px;
+    
+    
+}
+.inter
+{
+    
+    float:right;
+
+}
